@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="cordova-plugin-pexipdemo" version="0.1.0">
-    <name>pexipdemo</name>
-    <description>Pexip demo Plugin</description>
-    <license>Apache 2.0</license>
-    <keywords>cordova,pexip</keywords>
-    <js-module src="www/pexip.js" name="Pexip">
-        <clobbers target="Pexip" />
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-plugin-pexipdemo" version="0.0.1">
+    <name>ToastyPlugin</name>
+
+    <description>Sample Pexip plugin</description>
+    <license></license>
+
+    <keywords>cordova,android,toast,message,alert</keywords>
+    <repo>https://github.com/lifeCodeCS/pexip-plugin.git</repo>
+        
+    <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+    </engines>
+  
+    <js-module src="www/pexip.js" name="toastyPlugin">
+        <clobbers target="window.plugins.pexip" />
     </js-module>
-    <platform name="ios">
-        <config-file target="config.xml" parent="/*">
-            <feature name="Pexip">
-                <param name="ios-package" value="PexIp"/>
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="ToastyPlugin">
+                <param name="android-package" value="com.textpexip.cordova.plugin.pexipplugin"/>
             </feature>
         </config-file>
     </platform>
