@@ -14,7 +14,7 @@
         <engine name="cordova" version=">=3.0.0"/>
     </engines>
   
-    <js-module src="www/pexip.js" name="toastyPlugin">
+    <js-module src="www/connector.js" name="pexipplugin">
         <clobbers target="window.plugins.pexip" />
     </js-module>
     <platform name="android">
