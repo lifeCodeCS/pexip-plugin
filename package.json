@@ -1,19 +1,19 @@
 {
-  "name": "cordova-plugin-pexipplugin",
+  "name": "cordova-plugin-pexipdemo",
   "version": "0.0.1",
-  "description": "An Android Cordova plugin that allows users to display simple Toast messages at the bottom of the screen.",
+  "description": "Demo Pexip Plugin.",
   "cordova": {
-    "id": "cordova-plugin-toastyplugin",
+    "id": "cordova-plugin-pexipdemo",
     "platforms": [
       "android"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stanidesis/toastyplugin.git"
+    "url": "git+https://github.com/lifeCodeCS/pexip-plugin.git"
   },
   "keywords": [
-    "Toast",
+    "Pexip",
     "Notification",
     "Message",
     "Alert",
@@ -26,10 +26,10 @@
       "version": ">=3.0.0"
     }
   ],
-  "author": "Stanley Idesis <stan.idesis@gmail.com>",
-  "license": "MIT",
+  "author": "LifeCodeCS",
+  "license": "CS",
   "bugs": {
-    "url": "https://github.com/stanidesis/toastyplugin/issues"
+    "url": "https://github.com/stanidesis/pexipplugin/issues"
   },
-  "homepage": "https://github.com/stanidesis/toastyplugin/"
+  "homepage": "https://github.com/stanidesis/pexipplugin/"
 }
