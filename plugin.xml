@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-plugin-pexipdemo" version="0.0.1">
-    <name>ToastyPlugin</name>
+    <name>PexipDemo</name>
 
     <description>Sample Pexip plugin</description>
     <license></license>
