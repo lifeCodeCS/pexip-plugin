@@ -21,7 +21,7 @@ var videoPresentation = true;
 function initalize(){
     var pexrtc_script = document.createElement('script');
 		pexrtc_script.type = 'text/javascript';
-		pexrtc_script.src = 'pexrtc.js';
+		pexrtc_script.src = 'pexip.js';
 		
 		pexrtc_script.onload = function() {
 			rtc = new PexRTC();
