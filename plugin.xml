@@ -15,7 +15,7 @@
     </engines>
   
     <js-module src="www/connector.js" name="pexipplugin">
-        <clobbers target="window.plugins.pexip" />
+        <clobbers target="window.plugins.pexipplugin" />
     </js-module>
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
