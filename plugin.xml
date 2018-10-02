@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-pexipdemo" version="0.1.0">
+    <name>pexipdemo</name>
+    <description>Pexip demo Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,pexip</keywords>
+    <js-module src="www/pexip.js" name="Pexip">
+        <clobbers target="Pexip" />
+    </js-module>
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="Pexip">
+                <param name="ios-package" value="PexIp"/>
+            </feature>
+        </config-file>
+    </platform>
+</plugin>
