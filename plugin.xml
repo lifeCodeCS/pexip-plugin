@@ -19,7 +19,7 @@
     </js-module>
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="ToastyPlugin">
+            <feature name="PexIpPlugin">
                 <param name="android-package" value="com.textpexip.cordova.plugin.pexipplugin"/>
             </feature>
         </config-file>
