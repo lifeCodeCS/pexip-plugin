@@ -38,6 +38,8 @@ function initalize(){
 			rtc.onParticipantCreate = participantCreate;
 			rtc.onParticipantDelete = participantDelete;    
 		};
+	
+	document.head.appendChild(pexrtc_script);
 }
 
 function connect(){
